@@ -27,9 +27,9 @@ module.exports = async (client) => {
                     if (existingMessages.size === 0) {
                         const embed = new EmbedBuilder()
                         .setAuthor({
-                            name: "Ticket System",
+                            name: "Support System",
                             iconURL: Icons.ticketIcon,
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/neEV7uKDja"
                         })
                         .setDescription('- Please click the button below to create a new ticket.\n\n' +
                             '**Ticket Rules:**\n' +
