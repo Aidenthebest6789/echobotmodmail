@@ -35,7 +35,7 @@ module.exports = async (client) => {
                             '**Ticket Rules:**\n' +
                             '- Fill in all the fields accurately.\n' +
                             '- Be patient while waiting for a response from our support team.')
-                        .setFooter({ text: 'At your service!', iconURL: Icons.modIcon })
+                        .setFooter({ text: 'Someone will respond soon!', iconURL: Icons.modIcon })
                         .setColor('#00FF00'); 
                         
 
@@ -120,10 +120,10 @@ module.exports = async (client) => {
                     .setAuthor({
                         name: "Ticket Created Successfully",
                         iconURL: Icons.tickIcon,
-                        url: "https://discord.gg/nuWzGbu8De"
+                        url: "https://discord.gg/neEV7uKDja"
                     })
                     .setDescription(`Your ticket channel: ${ticketChannel.url}`)
-                    .setFooter({ text: 'Ticket Bot V2!', iconURL: Icons.modIcon })
+                    .setFooter({ text: 'EchoBot Modmail', iconURL: Icons.modIcon })
                     .setColor('#00FF00'); 
 
                 await interaction.user.send({ embeds: [openEmbed] });
