@@ -21,7 +21,7 @@
 
 
 const status = "AUTOMATIC";
-const botName = "🎟️ TICKET BOT";
+const botName = "🎟️ EchoBot Modmail";
 const Text = "GlaceYT";
 const version = "Latest@ v1.0"; 
 const startTime = Date.now();
