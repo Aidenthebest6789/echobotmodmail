@@ -37,7 +37,7 @@ module.exports = {
             .setAuthor({
                 name: 'EchoBot Support',
                 iconURL: Icons.dotIcon,
-                url: 'https://discord.gg/xQF9f9yUEM'
+                url: 'https://discord.gg/neEV7uKDja'
             })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
             .setImage('https://cdn.discordapp.com/attachments/1356367098267566240/1356755852689805473/standard_3.gif?ex=67edb8da&is=67ec675a&hm=0e6c922449aea599ddc98ce67c94b5506a30d77a6aa8088231b7eae406e10186&')
