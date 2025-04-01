@@ -70,13 +70,13 @@ module.exports = async (client) => {
 
         
         const embed = new EmbedBuilder()
-            .setTitle(`Mail from ${message.author.tag}`)
+            .setTitle(`Modmail from ${message.author.tag}`)
             .setDescription(`User **${message.author}** Has Created a support conversation.`)
             .setColor('#FFFF00');
 
         const closeButton = new ButtonBuilder()
             .setCustomId('close_modmail')
-            .setLabel('Close Mail')
+            .setLabel('Close Ticket')
             .setStyle(ButtonStyle.Danger);
 
         const row = new ActionRowBuilder().addComponents(closeButton);
