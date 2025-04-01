@@ -23,6 +23,5 @@
 module.exports = {
     token: '',
     guildId: '1356367097185439897',
-    mongodbURI: '
-mongodb+srv://AllinOne:AllinOne@allinone.nzxc1c6.mongodb.net/?retryWrites=true&w=majority&appName=AllinOne'
+    mongodbURI: 'mongodb+srv://AllinOne:AllinOne@allinone.nzxc1c6.mongodb.net/?retryWrites=true&w=majority&appName=AllinOne'
 };
