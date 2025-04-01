@@ -136,9 +136,9 @@ module.exports = async (client) => {
                     iconURL: Icons.tick2Icon,
                     url: "https://discord.gg/neEV7uKDja"
                 })
-                .setDescription('Your Mail conversation has been closed by the staff. Thank you for reaching out.')
+                .setDescription('Your Ticket has been closed by the staff. Thank you for reaching out Feel free to contact us whenever you need!.')
                 .setColor('Red')
-                .setFooter({ text: 'Ticket Bot V2!', iconURL: Icons.modIcon });
+                .setFooter({ text: 'EchoBot Modmail', iconURL: Icons.modIcon });
                 await user.send({ embeds: [embed]});
             }
 
@@ -146,9 +146,9 @@ module.exports = async (client) => {
             await channel.delete();
             
            
-            //console.log(`Closed ModMail channel: ${channel.name}`);
+            //console.log(`Closed Ticket: ${channel.name}`);
         } catch (error) {
-            //console.error('Error closing ModMail channel:', error);
+            //console.error('Error closing Ticket:', error);
         }
     });
 };
