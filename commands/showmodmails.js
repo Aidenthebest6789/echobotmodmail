@@ -25,17 +25,17 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('show-modmails')
-        .setDescription('Show all active modmails for this server'),
+        .setDescription('Show all active Modmail Tickets for this server'),
     
     async execute(interaction) {
         const modmailChannels = interaction.guild.channels.cache.filter(c => c.name.startsWith('modmail-'));
         
         if (modmailChannels.size === 0) {
-            return interaction.reply({ content: 'There are no active ModMail conversations.', ephemeral: true });
+            return interaction.reply({ content: 'There are no active ModMail Tickets.', ephemeral: true });
         }
 
         const embed = new EmbedBuilder()
-            .setTitle('Active ModMail Conversations')
+            .setTitle('Active ModMail Ticket')
             .setColor('#00FF00')
             .setDescription(modmailChannels.map(c => `• <#${c.id}> - Created by ${c.name.split('-')[1]}`).join('\n'));
 
