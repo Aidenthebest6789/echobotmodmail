@@ -87,7 +87,7 @@ module.exports = async (client) => {
         .setAuthor({
             name: "Mail Alert",
             iconURL: Icons.tick2Icon,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/neEV7uKDja"
         })
         .setDescription(`Your, ticket has been created. You can now chat with the staff.`)
         .setColor('Green')
