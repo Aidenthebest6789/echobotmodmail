@@ -71,7 +71,7 @@ module.exports = async (client) => {
         
         const embed = new EmbedBuilder()
             .setTitle(`Mail from ${message.author.tag}`)
-            .setDescription(`User **${message.author}** has initiated a Mail conversation.`)
+            .setDescription(`User **${message.author}** Has Created a support conversation.`)
             .setColor('#FFFF00');
 
         const closeButton = new ButtonBuilder()
@@ -89,9 +89,9 @@ module.exports = async (client) => {
             iconURL: Icons.tick2Icon,
             url: "https://discord.gg/xQF9f9yUEM"
         })
-        .setDescription(`Mail has been started. You can now chat with the staff.`)
+        .setDescription(`Your, ticket has been created. You can now chat with the staff.`)
         .setColor('Green')
-        .setFooter({ text: 'Ticket Bot V2!', iconURL: Icons.modIcon });
+        .setFooter({ text: 'EchoBot Modmail', iconURL: Icons.modIcon });
         message.author.send({ embeds: [Embed]});
     });
 
@@ -132,9 +132,9 @@ module.exports = async (client) => {
             if (user) {
                 const embed = new EmbedBuilder()
                 .setAuthor({
-                    name: "Mail Alert",
+                    name: "Modmail Alert",
                     iconURL: Icons.tick2Icon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/neEV7uKDja"
                 })
                 .setDescription('Your Mail conversation has been closed by the staff. Thank you for reaching out.')
                 .setColor('Red')
