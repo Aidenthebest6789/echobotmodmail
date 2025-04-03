@@ -107,4 +107,3 @@ app.listen(port, () => {
   console.log(`🔗 Listening to GlaceYT : http://localhost:${port}`);
 });
 client.login(process.env.TOKEN);
-module.exports = client;
