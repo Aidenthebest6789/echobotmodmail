@@ -1,7 +1,5 @@
 const client = require('./main');
 
-client.login(process.env.TOKEN);
-
 /*
 
   ________.__                        _____.___.___________
